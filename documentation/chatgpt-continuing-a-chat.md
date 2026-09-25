@@ -4,6 +4,10 @@
 
 ## Document Navigator
 
+
+**Have you already completed the [Normal Workflow](chatgpt-conversation-bridge-documentation.md#normal-workflow) steps that finish by running ChatGPT Conversation Bridge to create the DOCX (Microsoft Word / LibreOffice Writer) document and the Archive ZIP? If not, you must complete the [Normal Workflow](chatgpt-conversation-bridge-documentation.md#normal-workflow) before proceeding with Continuing a Chat.**
+
+
 -   [Purpose](#purpose)
 -   [Standard Initial Chat Continuation Message](#standard-initial-chat-continuation-message)
 -   [How to Submit the Standard ChatGPT Conversation Continuation Instructions](#how-to-submit-the-standard-chatgpt-conversation-continuation-instructions)
@@ -293,3 +297,7 @@ When historical certainty matters, check rather than guess.
 When FULL CHECK is OFF and no historical check was requested, stay within the current
 conversation.
 ```
+
+[↑ Back to Document Navigator](#continuing-a-chat)
+
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
