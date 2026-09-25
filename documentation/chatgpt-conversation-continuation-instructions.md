@@ -1,6 +1,6 @@
 # ChatGPT Conversation Continuation Instructions
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ## Document Navigator
 
@@ -47,9 +47,9 @@ For each new continuation, change only the filename above so that it exactly mat
 
 The remaining instructions are intended to stay the same for every conversation.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -59,9 +59,9 @@ These instructions tell a new ChatGPT conversation how to continue from the name
 
 The continuation DOCX is the chronological record of the previous conversation. The objective is continuation, not redesign, reinterpretation, or replacement of the earlier discussion.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -75,9 +75,9 @@ The continuation DOCX is the chronological record of the previous conversation. 
 >
 > Do not silently restore an older requirement, conclusion, preference, or decision merely because it appears in the continuation DOCX.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -99,9 +99,9 @@ When initial synchronization is complete, begin the continuation with:
 
 Keep `FULL CHECK: ON` until the user changes it.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -117,9 +117,9 @@ During initial synchronization, recover, when applicable:
 - the working method or procedure established by the user;
 - the exact point where the previous conversation stopped and the likely next step.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -135,9 +135,9 @@ Do not claim that something reached a later state unless the record actually est
 - A successful test does not automatically establish that the result became the final design.
 - If the record is genuinely ambiguous or incomplete, identify the uncertainty rather than guessing.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -160,9 +160,9 @@ Do not automatically begin the next major task merely because synchronization is
 
 After reporting the recovered state, wait for the user's instruction unless the user's continuation message already contains a clear task to perform.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -174,9 +174,9 @@ The continuation DOCX contains the older history. The current chat contains the 
 
 When reviewing historical information, follow the conversation forward sufficiently to determine the most recent applicable state rather than treating an earlier statement in isolation.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -188,9 +188,9 @@ Information supplied or corrected by the user in the current chat is newer and t
 
 Do not overwrite newer current-chat information with an older continuation-document version.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -206,9 +206,9 @@ Then reconcile the continuation-document history with anything established later
 
 The most recent explicit decision governs unless the record says otherwise.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -218,9 +218,9 @@ If the historical record is genuinely ambiguous or incomplete, identify the unce
 
 When an exact historical fact remains uncertain after checking the applicable sources, say that it is uncertain rather than filling the gap from assumption.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -240,9 +240,9 @@ Start a newly synchronized continuation with `FULL CHECK: ON`.
 
 The user may switch between `FULL CHECK: ON` and `FULL CHECK: OFF` as often as needed. The most recently selected state remains active until changed.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -252,9 +252,9 @@ When `FULL CHECK` is OFF, answer using only the current ChatGPT conversation.
 
 Do not routinely consult, search, or reread the continuation DOCX. This keeps ordinary continuation work fast and prevents unnecessary reprocessing of a large historical document.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -270,9 +270,9 @@ Then reconcile the continuation-document history with anything established later
 
 When an exact historical fact remains uncertain after checking both sources, say that it is uncertain rather than filling the gap from assumption.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -282,9 +282,9 @@ If the user says `full check on` or otherwise clearly requests `FULL CHECK: ON`,
 
 If the user says `full check off` or otherwise clearly requests `FULL CHECK: OFF`, switch to `FULL CHECK: OFF` and keep it off until changed.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -296,9 +296,9 @@ This explicit historical check does not by itself change the persistent FULL CHE
 
 After completing the requested historical check, continue using `FULL CHECK: OFF` unless the user explicitly changes the setting.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -308,9 +308,9 @@ Do not automatically begin the next major task merely because synchronization is
 
 After reporting the recovered state, wait for the user's instruction unless the user's continuation message already contains a clear task to perform.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -326,6 +326,6 @@ When historical certainty matters, check rather than guess.
 
 When `FULL CHECK` is OFF and no historical check was requested, stay within the current conversation.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-continuation-instructions)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)

@@ -1,6 +1,6 @@
 # Continuing a Chat
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ## Document Navigator
 
@@ -42,7 +42,7 @@ For now, only acknowledge that the continuation document has been received and
 wait for the instruction document.
 ```
 
-Once you receive the reply from ChatGPT proceed to the next section "How to Use the Standard **ChatGPT Conversation Continuation Instructions**"
+Once you receive the reply from ChatGPT proceed to the next section "**How to Submit the Standard ChatGPT Conversation Continuation Instructions**"
 
 ## How to Submit the Standard ChatGPT Conversation Continuation Instructions
 
@@ -269,9 +269,6 @@ This explicit historical check does not by itself change the persistent FULL CHE
 
 After completing the requested historical check, continue using FULL CHECK: OFF unless the user
 explicitly changes the setting.
-
-The continuation DOCX should be consulted according to the current FULL CHECK state or when the
-user explicitly requests a historical check.
 
 Do Not Automatically Begin the Next Major Task
 

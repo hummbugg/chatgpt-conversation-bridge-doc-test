@@ -1,6 +1,6 @@
 # ChatGPT Conversation Bridge Documentation
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ## Document Navigator
 
@@ -63,15 +63,15 @@ The DOCX also serves an important archival purpose. It creates a portable, human
 
 The permanent ZIP created by ChatGPT Conversation Bridge preserves the browser-saved source needed to regenerate the DOCX, while the DOCX is the practical document for reading, reviewing, archiving, and supplying prior conversation context to a continuation chat.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
 ## Browser Compatibility
 
-Google Chrome is the browser validated for the ChatGPT Conversation Bridge workflow. In testing on Windows 11, Ubuntu 24.04 LTS, and macOS Monterey, Chrome successfully preserved the uploaded-image resources needed by the program when a ChatGPT shared conversation was saved using **Web Page, Complete**.
+Google Chrome is the browser validated for the ChatGPT Conversation Bridge workflow. In testing on `Windows 11`, `Ubuntu 24.04 LTS`, and `macOS Monterey`, Chrome successfully preserved the uploaded-image resources needed by the program when a ChatGPT shared conversation was saved using **Web Page, Complete**.
 
 For this workflow, use Google Chrome, right-click the shared-conversation page, select **Save As**, and explicitly set the file-type selection to **Web Page, Complete**.
 
@@ -79,9 +79,9 @@ Do not rely on Microsoft Edge, Opera, or Firefox when uploaded images must be pr
 
 These results describe the browser versions, operating systems, and manual Save As workflow tested during development of ChatGPT Conversation Bridge. They are not a claim about every browser version, operating-system release, Linux distribution, or future ChatGPT page format.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -89,17 +89,17 @@ These results describe the browser versions, operating systems, and manual Save 
 
 ChatGPT Conversation Bridge requires:
 
-- A desktop computer running Windows, Linux, or macOS. Runtime validation for this release was performed specifically on Windows 11, Ubuntu 24.04 LTS, and macOS Monterey.
-- Python 3.10 or later. Runtime validation used Python 3.12.3 on Windows 11 and Ubuntu 24.04 LTS, and Python 3.14.7 on macOS Monterey.
+- A desktop computer running Windows, Linux, or macOS. Runtime validation for this release was performed specifically on `Windows 11`, `Ubuntu 24.04 LTS`, and `macOS Monterey`.
+- `Python 3.10` or later. Runtime validation used `Python 3.12.3` on `Windows 11` and `Ubuntu 24.04 LTS`, and `Python 3.14.7` on `macOS Monterey`.
 - No third-party Python packages. ChatGPT Conversation Bridge uses the Python standard library.
 - Google Chrome to save the ChatGPT shared-conversation page. For the tested workflow, explicitly select **Web Page, Complete** in Chrome's Save As dialog.
 - Microsoft Word, LibreOffice Writer, or another compatible DOCX reader to view the generated document.
 
 The exact operating systems and Python versions that were tested are documented separately under [Tested Platforms and Python Versions](#tested-platforms-and-python-versions).
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -141,9 +141,9 @@ The `archive` and `docx` folders do not need to be created manually. ChatGPT Con
 
 The `documentation` folder contains the project documentation.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -170,9 +170,9 @@ The overall workflow is:
 
 The following sections describe each part of this workflow in detail.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -190,9 +190,9 @@ At this point, choose either the **Standard Loading Method** or the **Verified L
 
 Do not save the conversation from the original ChatGPT conversation page. ChatGPT Conversation Bridge is designed to process the browser capture made from the loaded shared-conversation page.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -209,9 +209,9 @@ The Standard Loading Method is the simpler way to prepare the shared conversatio
 
 If the saved browser capture appears incomplete or expected images are missing, repeat the loading and saving process. You can also use the [Verified Loading Method](#verified-loading-method) for additional confirmation that available image resources have been retrieved before saving.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -233,9 +233,9 @@ Use **Fetch/XHR** rather than relying on the **Img** filter when checking upload
 
 The Network panel is a verification aid. Its purpose is to provide additional evidence that available resources were requested before the shared conversation is saved; it does not change the required Chrome **Web Page, Complete** save procedure.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -262,9 +262,9 @@ After the save is complete, close the shared-conversation tab. During testing, c
 
 Before running ChatGPT Conversation Bridge, verify the saved browser capture as described in [Verify the Saved Browser Capture](#verify-the-saved-browser-capture).
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -285,9 +285,9 @@ If the `_files` folder exists but expected uploaded images are missing from the 
 
 Once the HTML/HTM file and matching `_files` folder have been verified, the browser capture is ready for ChatGPT Conversation Bridge.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -317,9 +317,9 @@ Allow the program to finish. A successful run ends with:
 
 The following sections explain the source lookup order, first-run processing, console report, and output locations in detail.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -339,9 +339,9 @@ If neither a matching live browser capture nor a matching permanent archive can 
 
 The optional `.html` or `.htm` extension supplied with the conversation name acts as a source hint; it does not change the overall purpose of the lookup process.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -363,9 +363,9 @@ A partial or failed archive is not treated as a valid replacement for the origin
 
 After a successful first run, the permanent ZIP becomes the retained source from which the DOCX can later be regenerated.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -385,9 +385,9 @@ If the program reports an error or does not reach `Status: SUCCESS`, preserve th
 
 The console report is also useful when comparing repeated runs or validating the same conversation on another supported platform because it provides a consistent summary of what the program processed.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -417,9 +417,9 @@ The `archive` and `docx` folders are created automatically when needed.
 
 The DOCX is the practical document for reading, reviewing, archiving, and supplying prior conversation context to a continuation chat. The permanent ZIP retains the browser-saved source so that the DOCX can be regenerated later without repeating the Chrome Save As procedure.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -447,9 +447,9 @@ Regeneration does not require extracting the permanent ZIP manually. Leave the a
 
 The permanent archive is therefore the retained source for future regeneration, while the DOCX can be recreated when needed.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -465,9 +465,9 @@ This protection prevents an established permanent archive from being unintention
 
 Resolve the naming or source conflict before running ChatGPT Conversation Bridge again. Do not delete or overwrite the existing permanent archive unless you have deliberately determined which source should be retained.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -488,9 +488,9 @@ Follow these file-handling rules:
 
 These rules keep the permanent browser-saved source separate from the generated DOCX and reduce the risk of losing the only usable source for a conversation.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -519,9 +519,9 @@ Code blocks retain monospaced formatting and gray shading so that they remain vi
 
 The generated DOCX is intended primarily as a faithful readable record and continuation document rather than as an editable recreation of the ChatGPT web interface.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -547,9 +547,9 @@ Attachment and image records are reconciled so that a failed image does not inco
 
 Whether an uploaded image can be embedded ultimately depends on the resources preserved by Chrome when the shared conversation was saved. This is why the Chrome loading and **Web Page, Complete** procedure is important when image preservation matters.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -563,9 +563,9 @@ This keeps the visible destination available in the archival document and avoids
 
 Only reference information that is available in the saved conversation can be preserved. ChatGPT Conversation Bridge does not independently reconstruct missing external references that were not present in the saved source.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -581,9 +581,9 @@ During final Windows validation, the document could still be intentionally place
 
 The read-only/open-view-only behavior is intended to reduce accidental changes to the archival conversation. It is not intended to prevent a user who deliberately chooses to edit the document from doing so.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -591,15 +591,15 @@ The read-only/open-view-only behavior is intended to reduce accidental changes t
 
 The generated DOCX can also be opened in LibreOffice Writer.
 
-During final validation on Ubuntu 24.04 LTS and macOS Monterey, LibreOffice Writer opened the generated document in a read-only state as intended.
+During final validation on `Ubuntu 24.04 LTS` and `macOS Monterey`, LibreOffice Writer opened the generated document in a read-only state as intended.
 
 The document remains fully available for reading and review. If intentional editing is required, LibreOffice Writer's **Edit Mode** can be used to switch the document into an editable state.
 
 The exact appearance of application controls can vary by LibreOffice version and operating system, but the validated behavior is that the document opens for safe viewing while still allowing deliberate editing.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -617,15 +617,15 @@ The purpose is to make accidental editing less likely while preserving the user'
 
 Final native-application validation confirmed the intended behavior:
 
-- Microsoft Word on Windows 11 opens the document in a view-oriented state while still providing a way to enable editing.
-- LibreOffice Writer on Ubuntu 24.04 LTS opens the document read-only and allows intentional editing through **Edit Mode**.
-- LibreOffice Writer on macOS Monterey opens the document read-only and allows intentional editing through **Edit Mode**.
+- Microsoft Word on `Windows 11` opens the document in a view-oriented state while still providing a way to enable editing.
+- LibreOffice Writer on `Ubuntu 24.04 LTS` opens the document read-only and allows intentional editing through **Edit Mode**.
+- LibreOffice Writer on `macOS Monterey` opens the document read-only and allows intentional editing through **Edit Mode**.
 
 This behavior was validated with the final production output rather than inferred only from the DOCX package setting.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -647,9 +647,9 @@ If the goal is to preserve an authoritative archival copy of the conversation, k
 
 The permanent ZIP under `archive/` remains the retained browser-source archive and can be used by ChatGPT Conversation Bridge to regenerate the DOCX later.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -659,21 +659,21 @@ The final production version of ChatGPT Conversation Bridge was runtime-tested o
 
 | Operating System | Python Version | Runtime Result |
 | --- | --- | --- |
-| Windows 11 | Python 3.12.3 | PASS |
-| Ubuntu 24.04 LTS | Python 3.12.3 | PASS |
-| macOS Monterey | Python 3.14.7 | PASS |
+| `Windows 11` | `Python 3.12.3` | PASS |
+| `Ubuntu 24.04 LTS` | `Python 3.12.3` | PASS |
+| `macOS Monterey` | `Python 3.14.7` | PASS |
 
-The program requires Python 3.10 or later and uses only the Python standard library. No third-party Python packages are required.
+The program requires `Python 3.10` or later and uses only the Python standard library. No third-party Python packages are required.
 
 Google Chrome was used for the validated browser-save workflow on all three operating systems.
 
-Microsoft Word was used to validate the generated DOCX on Windows 11. LibreOffice Writer was used for native DOCX validation on Ubuntu 24.04 LTS and macOS Monterey.
+Microsoft Word was used to validate the generated DOCX on `Windows 11`. LibreOffice Writer was used for native DOCX validation on `Ubuntu 24.04 LTS` and `macOS Monterey`.
 
 These results document the environments actually tested for this release. They should not be interpreted as a guarantee for every operating-system version, Python version, browser version, office-suite version, Linux distribution, or future ChatGPT page format.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -683,9 +683,9 @@ The final production script was tested with eight saved ChatGPT conversations re
 
 Each of the eight conversations was converted on:
 
-- Windows 11
-- Ubuntu 24.04 LTS
-- macOS Monterey
+- `Windows 11`
+- `Ubuntu 24.04 LTS`
+- `macOS Monterey`
 
 This produced 24 final production conversions. All 24 completed successfully.
 
@@ -709,9 +709,9 @@ Final validation additionally covered:
 
 The final production script completed this validation with no required platform-specific code changes.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -732,9 +732,9 @@ Known limitations include:
 
 Preserve the permanent ZIP under `archive/` so that the DOCX can be regenerated from the saved source if needed.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
 
 ---
 
@@ -783,6 +783,6 @@ In Microsoft Word, use the available editing control when intentional editing is
 
 Run ChatGPT Conversation Bridge again with the same conversation name. If the live browser capture is gone, the program can use the permanent ZIP under `archive/` directly. Manual ZIP extraction is not required.
 
-[↑ Back to Document Navigator](#document-navigator)
+[↑ Back to Document Navigator](#chatgpt-conversation-bridge-documentation)
 
-[← Back to Main Information Navigator](../README.md#main-information-navigator)
+[← Back to Main Information Navigator](../README.md#chatgpt-conversation-bridge)
